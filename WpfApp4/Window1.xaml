@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp4.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="Window1" Height="324.783" Width="467.391" WindowStyle="None">
+    <Grid>
+        <StackPanel>
+
+            <TextBlock x:Name="TextBlo1" FontSize="20"></TextBlock>
+            <TextBox FontSize="20" FontFamily="Berlin Sans Fb" Margin="10" Name="textb1"></TextBox>
+            <TextBlock x:Name="TextBlo2" FontSize="20"></TextBlock>
+            <TextBox FontSize="20" FontFamily="Berlin Sans Fb" Margin="10" Name="textb2"></TextBox>
+            <TextBlock x:Name="TextBlo3" FontSize="20"></TextBlock>
+            <TextBox FontSize="20" FontFamily="Berlin Sans Fb" Margin="10" Name="textb3"></TextBox>
+
+            <UniformGrid>
+                <Button Name="UpdateButton" Margin="10" FontSize="20" Click="UpdateButton_Click">Update</Button>
+                <Button Name="DeleteButton" Margin="10" FontSize="20" Click="DeleteButton_Click">Delete</Button>
+            </UniformGrid>
+        </StackPanel>
+
+    </Grid>
+</Window>
